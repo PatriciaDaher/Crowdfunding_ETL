@@ -8,22 +8,26 @@ Then, we created four CSV files and used the CSV file data to create an ERD and 
 The repository is organized as follows:
 
 CrowdFunding_ETL
-1-      ETL_Mini_Project_starter_SBeckles_PDaher.ipynb   #jupyter notebook code file
- 
-2-      Resources	                                           #Folder
-        a.      crowdfunding.xlsx               #Excel data file
-        b.      contacts.xlxs       	              #Excel data file
-3-      CSV Files: Dataframes
-        a.      category.csv                           # Category DataFrame
-        b.      subcategory.csv    	           # Sub Category DataFrame
-        c.      campaign.csv                	    # Campaign DataFrame  	#
-        d.      contacts.csv        	              #  Contacts DataFrame
-4-      crowdfundingERDsketch.png           	       #ERD sketch of the four tables
-5-      SQL Databases
-        a.      crowdfunding_db_schema.sql     # Crowdfunding Database schema for the 4 tables
-        b.      crowdfunding_db                         	   # Crowdfunding Database
-6-      README.md
-```
+|_ ETL_Mini_Project_starter_SBeckles_PDaher.ipynb   #jupyter notebook code file
+|_ Resources	                                           #Folder
+|  |_ Excel
+|  |  |_ crowdfunding.xlsx               #Excel data file
+|  |  |_ contacts.xlxs       	              #Excel data file
+|  |_ Csv
+|  |  |_ category.csv                           # Category DataFrame
+|  |  |_ subcategory.csv    	           # Sub Category DataFrame
+|  |  |_ campaign.csv                	    # Campaign DataFrame 
+|  |  |_ contacts.csv        	              #  Contacts DataFrame
+|  |_ Screenshots of querries and crowdunding_db database    #screenshots of the four tables
+|     |_ category.png
+|     |_ subcategory.png
+|     |_ camapaign.png
+|     |_ contacts.png
+|_ crowdfundingERDsketch.png           	       
+|_ crowdfunding_db_schema.sql     # Crowdfunding Database schema for the 4 tables postgressql
+|_ README.md
+
+
 ## Project Steps
 Part 1  - Cleaning and Preparing the Tables via  Jupyter / Python/ Pandas
 1-      Data Extraction:
