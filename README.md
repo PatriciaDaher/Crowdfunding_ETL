@@ -56,15 +56,14 @@ Designing the Database
         b.      Defined  primary keys, foreign keys and data types
 3-      Data Loading
         a.      Created the Postgres database named crowdfunding_db
-b.      Imported the 4 csv files into their relative tables
-         i.      category.csv                           
-        ii.      subcategory.csv    	           
-       iii.      campaign.csv                	    
-        iv.      contacts.csv 	
-c.      Verified data integrity by running SELECT queries on each table   	              
+        b.      Imported the 4 csv files into their relative tables
+                i.      category.csv                           
+               ii.      subcategory.csv    	           
+              iii.      campaign.csv                	    
+               iv.      contacts.csv 	
+        c.      Verified data integrity by running SELECT queries on each table   
+        d.      Took four screenshots of tables
  
-## Data Analysis
-1- What is in each of these tables ?
 
 ## Technologies Used
    1-  Python
@@ -77,7 +76,7 @@ c.      Verified data integrity by running SELECT queries on each table
  
 ## Results
 Cleaned and organized data  presented clearly as a comprehensive database including 4 tables
-An organized Database  titled crowdfunding_db_schema.sql file  for the crowdfunding campaign including a database titled crowdfunding_db comprised of four interconnected tables  titled: Category , Sub Category , Campaign , Contacts
+An organized SQL Database  titled crowdfunding_db_schema.sql file  for the crowdfunding campaign including a database titled crowdfunding_db comprised of four interconnected tables  titled: Category , Sub Category , Campaign , Contacts
   
 ## Acknowledgements
 Sade Beckles and Patricia Daher
